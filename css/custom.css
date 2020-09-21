@@ -1,0 +1,152 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+.custom-button{
+    width: auto;
+    background: #337ab7;
+    padding: 10px 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.apple-font{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Navbar*/
+.navbar-brand img{
+    max-width: 100%;
+    height: 60px;
+}
+.navbar-nav{
+    margin-right: 20px;
+}
+.nav-item{
+    margin-right: 10px;
+}
+.nav-link{
+    font-weight: bold;
+    border-bottom: 2px white solid;
+}
+.nav-link:hover{
+    border-bottom: 2px #337ab7 solid;
+}
+
+/*Banner Carousel*/
+.carousel-caption{
+    height: 100%;
+}
+.custom-caption{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.custom-caption h1{
+    font-size: 60px;
+}
+
+/*Services*/
+.service{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    margin-bottom: 25px;
+}
+.card{
+    width: 20rem;
+    padding: 40px 0px 20px 0px;
+}
+
+/*Achievements*/
+.achievements .container h1{
+    color: #337ab7;
+    border-right: 1px #369df7 solid;
+}
+.achievements .last-achievement h1{
+    border-right: none;
+}
+@media screen and (max-width: 576px){
+    .achievements .container h1{
+        border-right: none;
+    }   
+}
+
+/*Who are we*/
+.who-are-we img{
+    margin-bottom: 30px;
+}
+.who-are-we h3{
+    color: #337ab7;
+    margin-bottom: 20px;
+}
+.who-are-we p{
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+/*Our Rates*/
+.custom-br{
+    border-right: 1px gainsboro solid;
+}
+
+/*Contact Us*/
+.contact-parallax{
+    color: white;
+    background-image: url("../images/banner/h1_hero.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bg-overlay {
+	position: relative;
+	z-index: 2;
+	background-position: center center;
+	background-size: cover;
+}
+.bg-overlay::after {
+	background-color: rgba(15, 6, 6, 0.4);
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+}
+.bg-fixed {
+	background-attachment: fixed !important;
+}
+.bg-img {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*Footer*/
+footer hr{
+    width: 60px; 
+    background: #337ab7;
+}
+.footer-services a{
+    color: #337ab7;
+    text-decoration: none;
+}
+.footer-services a:hover{
+    text-decoration: underline;
+}
+.footer-contact a{
+    color: #337ab7;
+}
+.footer-contact a:hover{
+    color: #007bff;
+}
+.footer-copyright a{
+    color: #337ab7;
+    text-decoration: none;
+}
+.footer-copyright a:hover{
+    text-decoration: underline;
+}
