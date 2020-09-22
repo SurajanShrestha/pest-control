@@ -49,6 +49,27 @@ body{
 .custom-caption h1{
     font-size: 60px;
 }
+@media screen and (max-width: 576px){
+    .custom-caption h1{
+        font-size: 25px;
+    }
+    .custom-caption p{
+        display: none;
+    }
+    .custom-caption .btn{
+        font-size: 15px;
+        width: auto;
+        padding: 5px;
+        font-weight: normal;
+        margin-top: 5px;
+    }
+}
+.custom-main,
+.custom-footer{
+    position: relative; 
+    top: 88px;
+}
+
 
 /*Services*/
 .service{
