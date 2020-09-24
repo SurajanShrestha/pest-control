@@ -158,6 +158,13 @@ body{
     width: 20rem;
     padding: 40px 0px 0px 0px;
 }
+.hide-service{
+    display: none;
+}
+#more-service-btn{
+    cursor: pointer;
+}
+
 
 /*Achievements*/
 .achievements h1{
